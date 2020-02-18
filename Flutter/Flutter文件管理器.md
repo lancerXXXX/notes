@@ -7,11 +7,11 @@ tags:
     - flutter
 ---
 
-# 参考
+# 1. 参考
 
 [参考这个项目,并在此基础上开发](https://github.com/huang-weilong/flutter_file_manager)
 
-# Andriod Studio 创建项目
+# 2. Andriod Studio 创建项目
 - 我也在VScode上配置了Flutter开发环境, 但是到了一些需要原生交互的部分还是需要用到AS, 所以就选择了AS
 我们先解读一下`main.dart`
 
@@ -24,32 +24,7 @@ tags:
 
     - yaml: 类似XML, JSON的标记性语言
 
-- 为app添加存储权限
-
-    - ```xml
-        //android\app\src\main\AndroidManifest.xml
-        <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-            package="com.lancer.file_manager">
-        	//添加下面这两个:读取权限 
-            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-        
-        
-            <application
-                         ...
-                <activity
-            			...
-                    <meta-data
-                    <intent-filter>
-                    </intent-filter>
-                </activity>
-            </application>
-        </manifest>
-        ```
-
-        有了这个第一次打开应用就应该会弹出对话框请求存储权限
-
-# 把布局搭出来
+# 3. 把布局搭出来
 
 `lib\main.dart`
 
@@ -168,30 +143,143 @@ class MyApp extends StatelessWidget {
   checkerboardRasterCacheImages 、showSemanticsDebugger、debugShowCheckedModeBanner 各种调试开关
   ```
   这里用到了`title`,`theme`,`home`
-## 创建MyHomePage
 
-MyHomePage 放在home参数下, 就是应用默认显示的界面
-是一个Stateful Widget,
+## 3.1. 获取读取权限
+
+<center>
+
+![](Flutter%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8/2020-02-16-21-49-23.png)
+
+</center>
+
+```xml
+<manifest...>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application...>
+```
+
+## 3.2. 创建MyHomePage
+
+`MyHomePage` 放在`Myapp` 的 home参数下, 就是应用默认显示的界面
+是一个`Stateful Widget`,
+
+现在的结构
+
+- MyApp`(StatelessWidget)`
+  - MyHomePage(`StatefullWidget`)
+    - _MyHomePageState(`State<>`)
+
+
 两部分
 1. `StatefulWidget`
-```dart
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+    ```dart
+    class MyHomePage extends StatefulWidget {
+      MyHomePage({Key key, this.title}) : super(key: key);
 
-  final String title;
+      final String title;
 
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-```
+      @override
+      _MyHomePageState createState() => _MyHomePageState();
+    }
+    ```
+    
 2. `State`
+    ```dart
+    class _MyHomePageState extends State<MyHomePage> {
+      ...
+      @override
+      void initState() {
+        ...
+      }
+    ```
+
+    `_MyHomePageState`放入一个`List<FileSystemEntity> files = [];`用来存放要显示的文件,文件夹
+    新建一个`Common.dart`用来存放`根目录`,`根据文件尾缀返回图标路径`
+
+    ``` Dart
+    class Common{
+      factory Common()=>_getInstance();
+
+      static Common _instance;
+
+      static Common _getInstance(){
+        if(_instance==null){
+          _instance=Common._internal();
+        }
+        return _instance;
+      }
+    Common._internal();
+      ...
+    }
+    ```
+这里使用了`工厂构造函数: factory`,和`单例模设计式`,有时候不需要每次新建都创建新的实例, 而是每次都只需要同一个实例,
+    具体的做法就是有一个静态的实例对象`static Common _instance`, 作为缓存,用来存放这唯一的一个实例对象,
+    然后写`工厂构造函数`, 关键字为`factory`: `factory Common()=>_getInstance()`,
+    这里面做一个判断,如果没有实例的话,初始化一个新的对象赋值给`_instance=Common._internal()`, `internal是一个空的初始化函数`
+
+## 3.3.  获取跟路径和读取权限
+
+这里使用了Flutter也就是dart中的异步
+
+[参考](https://www.jianshu.com/p/a4affde4c8ca)
+
+总结一下就是:  
+
+- Dart: 单线程模式
+
+  - 是`Event-Looper`以及`Event-Queue`的模型 : 事件通过`EventLooper`(事件循环)执行
+    ![img](Flutter%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E5%99%A8/1941624-5cd24aaf768a8b97.webp)
+
+  - isolate(隔离): 没有线程概念,但是有隔离
+
+    - 各个isolate相互隔离
+
+    - 之间不会共享内存
+
+    - 程序从main()开始:Main isolate
+
+    - 接着处理Event Queue中的Event
+
+  - Event Queue & Microtask Queue
+    - Main Isolate只有一个Event looper
+    - 但是有两个Event Queue: 
+        - Event Queue & Microtask Queue((优先执行)处理稍晚一些的事情(但是下一个消息来之前要处理完的),处理这个Queue时停止Event Queue的处理)
+- 异步任务调度:
+    - Future: 任务加到Event Queue队尾
+    - scheduleMidrotask: 任务加到Microtask Queue队尾(要避免过大--阻塞其他事件的处理)
+- Future.then: 大人物拆分成小任务一步步执行
+- Future.delayed: 任务延迟执行
+
+- ```java
+  //future: Future<T>对象--Dart内置,有自己的队列策略(EventQueue)
+  //async: 声明函数为异步,不阻塞当前进程,来等待该线程处理完任务再执行其他任务
+  //await: 等待,声明运算为延迟进行
+  ```
+
 ```dart
-class _MyHomePageState extends State<MyHomePage> {
-  ...
-  @override
-  void initState() {
-    ...
+void main() {
+  //1. 获取跟路径
+  Future<void> getSDCardDir() async{
+    //1.1 插件path_provider提供函数getExternalStorageDirectory
+    //1.2 获取SD卡根路径
+    Common().sDCardDir=(await getExternalStorageDirectory()).path;
   }
+
+  //2. 获取权限
+  Future<void> getPermission() async {
+    //2.1 安卓平台
+    if (Platform.isAndroid) {
+      PermissionStatus permission = await PermissionHandler().checkPermissionStatus(PermissionGroup.storage);
+      if (permission != PermissionStatus.granted) {
+        await PermissionHandler().requestPermissions([PermissionGroup.storage]);
+      }
+      await getSDCardDir();
+    //2.2 IOS平台
+    } else if (Platform.isIOS) {
+      await getSDCardDir();
+    }
+  }
+
 ```
 
-`_MyHomePageState`放入一个`List<FileSystemEntity> files = [];`
