@@ -9,6 +9,14 @@ tags:
     - 英语
 ---
 
+
+<head>
+    <style type="text/css">  
+        body b{color:#00ff00;}
+        body strong{color:#00ff00;}
+    </style>
+</head>
+
 ## WordList 34
 
 ||单词|记忆|接|联系|
