@@ -1,5 +1,6 @@
 ---
 title: WordList19
+index_img: /post_index_img/English.jpg
 date: 2020-01-01 11:11:19
 categories:
     - 考研

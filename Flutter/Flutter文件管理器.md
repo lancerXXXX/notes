@@ -1,5 +1,6 @@
 ---
 title: Flutter文件管理器开发
+index_img: /post_index_img/Flutter.png
 date: 2020-1-29
 categories: 
     - Flutter

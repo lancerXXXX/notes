@@ -1,5 +1,6 @@
 ---
 title: WordList14
+index_img: /post_index_img/English.jpg
 date: 2020-01-01 11:11:14
 categories:
     - 考研

@@ -1,5 +1,6 @@
 ---
 title: WordList3
+index_img: /post_index_img/English.jpg
 date: 2020-01-01 11:11:3
 categories:
     - 考研

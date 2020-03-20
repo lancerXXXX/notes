@@ -1,6 +1,7 @@
 ---
 title: WordList7
-date: 2020-01-01 11:11:7
+index_img: /post_index_img/English.jpg
+date: 2020-01-01 11:11:07
 categories:
     - 考研
     - 英语

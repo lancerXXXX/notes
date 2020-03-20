@@ -1,11 +1,28 @@
 ---
 title: 一份完整的vscode-markdown配置
+index_img: post_index_img/vscode.png
 date: 2020-02-27
 categories:
     - Markdown
 tags:
     - Markdown
 ---
+
+<head>
+    <style type="text/css">  
+        body b,body strong{
+            background-image: -webkit-gradient(linear, left 0, right 0, from(rgb(255, 62, 242)), to(rgb(255, 0, 0)));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: rgba(0, 0, 0, 0);
+            }
+        .katex *{
+            color:#1de48f;
+        }
+        html body img{
+          border-radius: 15px;box-shadow: 12px 10px 10px;
+        }
+    </style>
+</head>
 
 # 1. 基础插件
 

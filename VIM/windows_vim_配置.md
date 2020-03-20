@@ -1,3 +1,13 @@
+---
+title: windows vim 配置
+index_img: /post_index_img/vim.png
+date: 2020-03-20
+categories:
+    - vim
+tags:
+    - vim
+---
+
 - Windows上配置vim8.1
 
 介绍下情况, 之前是在wsl上使用rwindowsTerminal+angeer+vim_8  
