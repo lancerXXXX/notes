@@ -1,6 +1,6 @@
 ---
 title: 一份完整的vscode-markdown配置
-index_img: post_index_img/vscode.png
+index_img: /post_index_img/vscode.png
 date: 2020-02-27
 categories:
     - Markdown
