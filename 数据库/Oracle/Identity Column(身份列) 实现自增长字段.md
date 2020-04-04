@@ -1,3 +1,17 @@
+---
+title: Identity Column(身份列) 实现自增长字段
+index_img: /post_index_img/
+date: 2020-04-03
+categories:
+    - 数据库
+    - Oracle
+tags:
+    - 数据库
+    - Oracle
+---
+
+
+
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 https://www.cnblogs.com/zyon/p/11067115.html
 
 # Identity Column
