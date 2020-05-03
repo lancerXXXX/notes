@@ -107,7 +107,8 @@ class MyApp extends StatelessWidget {
             ```mermaid
             graph LR
             StatelessWidget-->|创建|StatelessElement
-            StatelessWidget-->|传递自身引用|StatelessElement-->|中使用StatelessWidget的build方法将自身作为参数|StatelessWidget
+            StatelessWidget-->|传递自身引用|StatelessElement
+            StatelessElement-->|中使用StatelessWidget的build方法将自身作为参数|StatelessWidget
             ```
 
 - `MaterialApp`

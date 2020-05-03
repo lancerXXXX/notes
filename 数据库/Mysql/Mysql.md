@@ -1,6 +1,6 @@
 ---
 title: Mysql数据库
-index_img: /post_index_img/
+index_img: /post_index_img/数据库.png
 date: 2020-04-01
 categories:
     - 数据库

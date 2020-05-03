@@ -1,6 +1,6 @@
 ---
 title: pdf工具
-index_img: /post_index_img/
+index_img: /post_index_img/pdf.jfif
 date: 2020-04-01
 categories:
     - 工具

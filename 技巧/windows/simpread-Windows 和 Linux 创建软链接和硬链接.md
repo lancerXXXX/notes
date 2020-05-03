@@ -1,6 +1,6 @@
 ---
 title: Windows/Linux软链接
-index_img: /post_index_img/
+index_img: /post_index_img/技巧.png
 date: 2020-04-02
 categories:
     - 技巧

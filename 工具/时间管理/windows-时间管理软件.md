@@ -1,6 +1,6 @@
 ---
 title: windows时间管理软件
-index_img: /post_index_img/
+index_img: /post_index_img/时间.png
 date: 2020-04-05
 categories:
     - 工具
