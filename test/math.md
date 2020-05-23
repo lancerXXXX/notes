@@ -2,27 +2,26 @@
 
 
 ```python {cmd=true matplotlib=true}
+import numpy as np
 import matplotlib.pyplot as plt
+plt.rcParams['font.family'] = ['sans-serif']
+plt.rcParams['font.sans-serif'] = ['SimHei']
+matplotlib.rcParams['axes.unicode_minus'] =False
 plt.style.use('dark_background')
 
-x=[1,2,3,4]
-y=[1,2,3,4]
-plt.scatter(x,y)
-plt.show()
-plt.savefig('./math/1png.png')
-```
-<image src="./math/1png.png" width="400px"/>
+x=np.arange(-np.pi,np.pi,0.1)
+# x2=np.array[1,2,3,4]
+y=(x*np.sin(x))/(1+np.power(np.cos(x),2))
+# y=2*x
 
-```python {cmd=true matplotlib=true}
-import matplotlib.pyplot as plt
-plt.style.use('dark_background')
+plt.plot(x,y)
 
-x=[1,2,3,4]
-y=[1,2,3,4]
-plt.scatter(x,y)
-
+plt.title("Matplotlib") 
+plt.xlabel("x axis caption") 
+plt.ylabel("y axis caption") 
 
 plt.show()
-plt.savefig('./math/1png.png')
+# plt.savefig('./math/1png.png')
 ```
-<image src="./math/1png.png" width="400px"/>
+<img src="./math/1png.png" width="600px"/>
+
