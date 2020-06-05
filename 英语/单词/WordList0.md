@@ -1,0 +1,1 @@
+https://translate.google.com.vn/translate_tts?ie=UTF-8&q=%20I%20FIXED%20UP%20A%20NEW%20TIE%20RACK%20IN%20THE%20WARDROBE%20LAST%20SUNDAY%20%20&tl=en&client=tw-ob 
