@@ -1,0 +1,216 @@
+Date : 2020-06-09 11:23:53
+Directory : d:\notes\myblog\source\_posts
+Total : 138 files,  45573 codes, 79 comments, 2813 blanks, all 48465 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| HTML       |          3 |     23,921 |         43 |         35 |     23,999 |
+| Markdown   |        128 |     19,890 |         21 |      2,712 |     22,623 |
+| HyperSnips |          3 |      1,317 |          0 |         63 |      1,380 |
+| XML        |          1 |        421 |         15 |          1 |        437 |
+| Ini        |          2 |         19 |          0 |          2 |         21 |
+| JSON       |          1 |          5 |          0 |          0 |          5 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                           | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                              |        138 |     45,573 |         79 |      2,813 |     48,465 |
+| Flutter                                                                        |          2 |        302 |         13 |         59 |        374 |
+| Flutter\Widget                                                                 |          1 |         64 |         13 |          9 |         86 |
+| VIM                                                                            |          2 |        961 |          0 |        220 |      1,181 |
+| test                                                                           |          4 |        504 |         58 |         32 |        594 |
+| test\math                                                                      |          1 |        421 |         15 |          1 |        437 |
+| 备份                                                                             |          3 |      1,317 |          0 |         63 |      1,380 |
+| 备份\代码片段备份                                                                      |          3 |      1,317 |          0 |         63 |      1,380 |
+| 备份\代码片段备份\HSNIPS                                                               |          3 |      1,317 |          0 |         63 |      1,380 |
+| 密码学基础                                                                          |          1 |        335 |          0 |         24 |        359 |
+| 工具                                                                             |         11 |        380 |          6 |        176 |        562 |
+| 工具\Hexo                                                                        |          2 |         99 |          6 |         25 |        130 |
+| 工具\chrome                                                                      |          1 |         34 |          0 |          6 |         40 |
+| 工具\pdf                                                                         |          1 |         16 |          0 |          2 |         18 |
+| 工具\windows效率                                                                   |          1 |         16 |          0 |          5 |         21 |
+| 工具\写作                                                                          |          1 |         20 |          0 |          7 |         27 |
+| 工具\数据库                                                                         |          1 |         62 |          0 |         79 |        141 |
+| 工具\时间管理                                                                        |          1 |         25 |          0 |          7 |         32 |
+| 工具\编辑器                                                                         |          2 |         27 |          0 |          9 |         36 |
+| 技巧                                                                             |          5 |        226 |          0 |         76 |        302 |
+| 技巧\windows                                                                     |          1 |         41 |          0 |         18 |         59 |
+| 技巧\wsl                                                                         |          1 |         30 |          0 |          8 |         38 |
+| 技巧\写作                                                                          |          2 |        136 |          0 |         44 |        180 |
+| 技巧\写作\Markdown                                                                 |          2 |        136 |          0 |         44 |        180 |
+| 技巧\美化                                                                          |          1 |         19 |          0 |          6 |         25 |
+| 数学                                                                             |         14 |      2,807 |          0 |        545 |      3,352 |
+| 数学\线性代数                                                                        |          2 |        212 |          0 |         67 |        279 |
+| 数学\高等数学                                                                        |         12 |      2,595 |          0 |        478 |      3,073 |
+| 数据库                                                                            |          2 |        101 |          0 |         46 |        147 |
+| 数据库\Mysql                                                                      |          1 |         30 |          0 |          7 |         37 |
+| 数据库\Oracle                                                                     |          1 |         71 |          0 |         39 |        110 |
+| 系统分析与设计                                                                        |          4 |        162 |          0 |         53 |        215 |
+| 编译原理                                                                           |          6 |      1,034 |          0 |        261 |      1,295 |
+| 编译原理\1_词法分析                                                                    |          1 |          2 |          0 |          1 |          3 |
+| 编译原理\2_语法分析                                                                    |          1 |         17 |          0 |          1 |         18 |
+| 英语                                                                             |         55 |     32,750 |          0 |        115 |     32,865 |
+| 英语\单词                                                                          |         54 |     32,731 |          0 |        109 |     32,840 |
+| 英语\句型                                                                          |          1 |         19 |          0 |          6 |         25 |
+| 计算机组成                                                                          |          4 |      1,640 |          0 |        324 |      1,964 |
+| 计算机组成\1                                                                        |          1 |        254 |          0 |         63 |        317 |
+| 计算机组成\2                                                                        |          1 |        400 |          0 |        133 |        533 |
+| 计算机组成\3                                                                        |          1 |        822 |          0 |        115 |        937 |
+| 计算机组成\4                                                                        |          1 |        164 |          0 |         13 |        177 |
+| 软件工程                                                                           |         19 |      2,725 |          0 |        735 |      3,460 |
+| 软件工程\设计模式                                                                      |         17 |      1,367 |          0 |        341 |      1,708 |
+| 软件工程\设计模式\创建型模式                                                                |          3 |        139 |          0 |         43 |        182 |
+| 软件工程\设计模式\结构型模式                                                                |          7 |        541 |          0 |        138 |        679 |
+| 软件工程\设计模式\行为型模式                                                                |          7 |        687 |          0 |        160 |        847 |
+| 软件工程\软件工程中的图                                                                   |          1 |        100 |          0 |         40 |        140 |
+| 软件测试                                                                           |          5 |        324 |          2 |         84 |        410 |
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                       | language   | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\notes\myblog\source\_posts\.markdownlint.json                               | JSON       |          5 |          0 |          0 |          5 |
+| d:\notes\myblog\source\_posts\Flutter\Flutter文件管理器.md                          | Markdown   |        238 |          0 |         50 |        288 |
+| d:\notes\myblog\source\_posts\Flutter\Widget\SizeTransition.md                 | Markdown   |         64 |         13 |          9 |         86 |
+| d:\notes\myblog\source\_posts\VIM\windows_vim_配置.md                            | Markdown   |        605 |          0 |         78 |        683 |
+| d:\notes\myblog\source\_posts\VIM\wsl以及vim配置.md                                | Markdown   |        356 |          0 |        142 |        498 |
+| d:\notes\myblog\source\_posts\test\math.md                                     | Markdown   |          0 |          0 |          1 |          1 |
+| d:\notes\myblog\source\_posts\test\math\1svg.svg                               | XML        |        421 |         15 |          1 |        437 |
+| d:\notes\myblog\source\_posts\test\test.html                                   | HTML       |         63 |         43 |         26 |        132 |
+| d:\notes\myblog\source\_posts\test\test.md                                     | Markdown   |         20 |          0 |          4 |         24 |
+| d:\notes\myblog\source\_posts\备份\代码片段备份\HSNIPS\hsnips.hsnips                   | HyperSnips |         17 |          0 |          0 |         17 |
+| d:\notes\myblog\source\_posts\备份\代码片段备份\HSNIPS\markdown - 副本.hsnips            | HyperSnips |        456 |          0 |         15 |        471 |
+| d:\notes\myblog\source\_posts\备份\代码片段备份\HSNIPS\markdown.hsnips                 | HyperSnips |        844 |          0 |         48 |        892 |
+| d:\notes\myblog\source\_posts\密码学基础\密码学.md                                     | Markdown   |        335 |          0 |         24 |        359 |
+| d:\notes\myblog\source\_posts\工具\Hexo\heox环境变量.md                              | Markdown   |         38 |          0 |         14 |         52 |
+| d:\notes\myblog\source\_posts\工具\Hexo\hexo配置.md                                | Markdown   |         61 |          6 |         11 |         78 |
+| d:\notes\myblog\source\_posts\工具\Virtual Box虚拟机安装.md                           | Markdown   |         81 |          0 |         36 |        117 |
+| d:\notes\myblog\source\_posts\工具\chrome\chrome扩展.md                            | Markdown   |         34 |          0 |          6 |         40 |
+| d:\notes\myblog\source\_posts\工具\pdf\pdf工具.md                                  | Markdown   |         16 |          0 |          2 |         18 |
+| d:\notes\myblog\source\_posts\工具\windows效率\windows效率工具.md                      | Markdown   |         16 |          0 |          5 |         21 |
+| d:\notes\myblog\source\_posts\工具\写作\写作工具.md                                    | Markdown   |         20 |          0 |          7 |         27 |
+| d:\notes\myblog\source\_posts\工具\数据库\Power Designer安装使用.md                     | Markdown   |         62 |          0 |         79 |        141 |
+| d:\notes\myblog\source\_posts\工具\时间管理\windows-时间管理软件.md                        | Markdown   |         25 |          0 |          7 |         32 |
+| d:\notes\myblog\source\_posts\工具\编辑器\Vscode.md                                 | Markdown   |         14 |          0 |          2 |         16 |
+| d:\notes\myblog\source\_posts\工具\编辑器\sublime Text.md                           | Markdown   |         13 |          0 |          7 |         20 |
+| d:\notes\myblog\source\_posts\技巧\windows\simpread-Windows 和 Linux 创建软链接和硬链接.md | Markdown   |         41 |          0 |         18 |         59 |
+| d:\notes\myblog\source\_posts\技巧\wsl\tmux使用.md                                 | Markdown   |         30 |          0 |          8 |         38 |
+| d:\notes\myblog\source\_posts\技巧\写作\Markdown\Markdown设置锚点.md                   | Markdown   |         56 |          0 |          5 |         61 |
+| d:\notes\myblog\source\_posts\技巧\写作\Markdown\一份完整的vscode-markdown配置.md         | Markdown   |         80 |          0 |         39 |        119 |
+| d:\notes\myblog\source\_posts\技巧\美化\百度搜索结果美化.md                                | Markdown   |         19 |          0 |          6 |         25 |
+| d:\notes\myblog\source\_posts\数学\线性代数\1-行列式.md                                 | Markdown   |         93 |          0 |         20 |        113 |
+| d:\notes\myblog\source\_posts\数学\线性代数\2-矩阵.md                                  | Markdown   |        119 |          0 |         47 |        166 |
+| d:\notes\myblog\source\_posts\数学\高等数学\1_函数极限连续.md                              | Markdown   |        215 |          0 |         41 |        256 |
+| d:\notes\myblog\source\_posts\数学\高等数学\2_一元函数微分学.md                             | Markdown   |        252 |          0 |         55 |        307 |
+| d:\notes\myblog\source\_posts\数学\高等数学\3_一元函数积分学.md                             | Markdown   |        224 |          0 |         69 |        293 |
+| d:\notes\myblog\source\_posts\数学\高等数学\4_向量代数与空间解析几何.md                         | Markdown   |        148 |          0 |         60 |        208 |
+| d:\notes\myblog\source\_posts\数学\高等数学\5_多元函数微分学.md                             | Markdown   |        277 |          0 |         12 |        289 |
+| d:\notes\myblog\source\_posts\数学\高等数学\6_多元函数积分学.md                             | Markdown   |        312 |          0 |         11 |        323 |
+| d:\notes\myblog\source\_posts\数学\高等数学\7_无穷级数.md                                | Markdown   |        231 |          0 |         44 |        275 |
+| d:\notes\myblog\source\_posts\数学\高等数学\8_常微分方程.md                               | Markdown   |        137 |          0 |         54 |        191 |
+| d:\notes\myblog\source\_posts\数学\高等数学\自然对数.md                                  | Markdown   |         52 |          0 |          8 |         60 |
+| d:\notes\myblog\source\_posts\数学\高等数学\题型_1_函数极限连续.md                           | Markdown   |        225 |          0 |         41 |        266 |
+| d:\notes\myblog\source\_posts\数学\高等数学\题型_2_一元函数微分学.md                          | Markdown   |        369 |          0 |         44 |        413 |
+| d:\notes\myblog\source\_posts\数学\高等数学\题型_3_一元函数积分学.md                          | Markdown   |        153 |          0 |         39 |        192 |
+| d:\notes\myblog\source\_posts\数据库\Mysql\Mysql.md                               | Markdown   |         30 |          0 |          7 |         37 |
+| d:\notes\myblog\source\_posts\数据库\Oracle\Identity Column(身份列) 实现自增长字段.md       | Markdown   |         71 |          0 |         39 |        110 |
+| d:\notes\myblog\source\_posts\系统分析与设计\git.md                                   | Markdown   |         44 |          0 |          2 |         46 |
+| d:\notes\myblog\source\_posts\系统分析与设计\微服务.md                                   | Markdown   |         62 |          0 |         32 |         94 |
+| d:\notes\myblog\source\_posts\系统分析与设计\敏捷管理.md                                  | Markdown   |         24 |          0 |         10 |         34 |
+| d:\notes\myblog\source\_posts\系统分析与设计\数据库设计.md                                 | Markdown   |         32 |          0 |          9 |         41 |
+| d:\notes\myblog\source\_posts\编译原理\1_词法分析.md                                   | Markdown   |        190 |          0 |         56 |        246 |
+| d:\notes\myblog\source\_posts\编译原理\1_词法分析\desktop.ini                          | Ini        |          2 |          0 |          1 |          3 |
+| d:\notes\myblog\source\_posts\编译原理\2_语法分析.md                                   | Markdown   |        383 |          0 |         56 |        439 |
+| d:\notes\myblog\source\_posts\编译原理\2_语法分析\desktop.ini                          | Ini        |         17 |          0 |          1 |         18 |
+| d:\notes\myblog\source\_posts\编译原理\3_语义分析.md                                   | Markdown   |        135 |          0 |         50 |        185 |
+| d:\notes\myblog\source\_posts\编译原理\4_运行时存储空间的组织和管理.md                          | Markdown   |        307 |          0 |         97 |        404 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList0.md                               | Markdown   |          1 |          0 |          0 |          1 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList01.html                            | HTML       |        577 |          0 |          6 |        583 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList01.md                              | Markdown   |        115 |          0 |          1 |        116 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList02.md                              | Markdown   |        111 |          0 |          1 |        112 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList03.md                              | Markdown   |        103 |          0 |          1 |        104 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList04.md                              | Markdown   |        109 |          0 |          1 |        110 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList05.md                              | Markdown   |        114 |          0 |          1 |        115 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList06.md                              | Markdown   |        106 |          0 |          1 |        107 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList07.md                              | Markdown   |        111 |          0 |          1 |        112 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList08.md                              | Markdown   |        107 |          0 |          1 |        108 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList09.md                              | Markdown   |        110 |          0 |          1 |        111 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList10.md                              | Markdown   |        107 |          0 |          1 |        108 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList11.md                              | Markdown   |        107 |          0 |          1 |        108 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList12.md                              | Markdown   |        109 |          0 |          1 |        110 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList13.md                              | Markdown   |        106 |          0 |          1 |        107 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList14.md                              | Markdown   |        105 |          0 |          1 |        106 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList15.md                              | Markdown   |        112 |          0 |          1 |        113 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList16.md                              | Markdown   |        108 |          0 |          1 |        109 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList17.md                              | Markdown   |        106 |          0 |          1 |        107 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList18.md                              | Markdown   |        118 |          0 |          1 |        119 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList19.md                              | Markdown   |        110 |          0 |          1 |        111 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList20.md                              | Markdown   |        109 |          0 |          1 |        110 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList21.md                              | Markdown   |        108 |          0 |          1 |        109 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList22.md                              | Markdown   |        111 |          0 |          1 |        112 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList23.md                              | Markdown   |        111 |          0 |          1 |        112 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList24.md                              | Markdown   |        104 |          0 |          1 |        105 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList25.md                              | Markdown   |        109 |          0 |          1 |        110 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList26.md                              | Markdown   |        108 |          0 |          1 |        109 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList27.md                              | Markdown   |        108 |          0 |          1 |        109 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList28.md                              | Markdown   |        108 |          0 |          1 |        109 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList29.md                              | Markdown   |        108 |          0 |          1 |        109 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList30.md                              | Markdown   |        107 |          0 |          1 |        108 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList31.md                              | Markdown   |        113 |          0 |          1 |        114 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList32.md                              | Markdown   |        113 |          0 |          1 |        114 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList33.md                              | Markdown   |        110 |          0 |          1 |        111 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList34.md                              | Markdown   |        112 |          0 |          1 |        113 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList35.md                              | Markdown   |        109 |          0 |          1 |        110 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList36.md                              | Markdown   |        103 |          0 |          1 |        104 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList37.md                              | Markdown   |        111 |          0 |          1 |        112 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList38.md                              | Markdown   |        110 |          0 |          1 |        111 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList39.md                              | Markdown   |        108 |          0 |          1 |        109 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList40.md                              | Markdown   |        112 |          0 |          1 |        113 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList41.md                              | Markdown   |        113 |          0 |          1 |        114 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList42.md                              | Markdown   |        108 |          0 |          1 |        109 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList43.md                              | Markdown   |        107 |          0 |          1 |        108 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList44.md                              | Markdown   |        108 |          0 |          1 |        109 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList45.md                              | Markdown   |        109 |          0 |          1 |        110 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList46.md                              | Markdown   |        110 |          0 |          1 |        111 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList47.md                              | Markdown   |        119 |          0 |          1 |        120 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList48.md                              | Markdown   |        111 |          0 |          1 |        112 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList49.md                              | Markdown   |        116 |          0 |          1 |        117 |
+| d:\notes\myblog\source\_posts\英语\单词\WordList50.md                              | Markdown   |         98 |          0 |          1 |         99 |
+| d:\notes\myblog\source\_posts\英语\单词\allWords.html                              | HTML       |     23,281 |          0 |          3 |     23,284 |
+| d:\notes\myblog\source\_posts\英语\单词\allWords.md                                | Markdown   |      3,407 |          0 |         50 |      3,457 |
+| d:\notes\myblog\source\_posts\英语\句型\句型.md                                      | Markdown   |         19 |          0 |          6 |         25 |
+| d:\notes\myblog\source\_posts\计算机组成\1\计算机系统概述.md                               | Markdown   |        254 |          0 |         63 |        317 |
+| d:\notes\myblog\source\_posts\计算机组成\2\数据的表示与运算.md                              | Markdown   |        400 |          0 |        133 |        533 |
+| d:\notes\myblog\source\_posts\计算机组成\3\3-存储系统.md                                | Markdown   |        822 |          0 |        115 |        937 |
+| d:\notes\myblog\source\_posts\计算机组成\4\4-指令系统.md                                | Markdown   |        164 |          0 |         13 |        177 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\创建型模式\单例模式.md                          | Markdown   |         36 |          0 |          9 |         45 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\创建型模式\原型模式.md                          | Markdown   |         55 |          0 |         17 |         72 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\创建型模式\构造器模式.md                         | Markdown   |         48 |          0 |         17 |         65 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\结构型模式\享元模式.md                          | Markdown   |         95 |          0 |         18 |        113 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\结构型模式\代理模式.md                          | Markdown   |         84 |          0 |         19 |        103 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\结构型模式\桥接模式.md                          | Markdown   |         97 |          0 |         27 |        124 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\结构型模式\组合模式.md                          | Markdown   |         58 |          0 |         20 |         78 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\结构型模式\装饰者模式.md                         | Markdown   |         70 |          0 |         19 |         89 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\结构型模式\适配器模式.md                         | Markdown   |         64 |          0 |         16 |         80 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\结构型模式\门面模式.md                          | Markdown   |         73 |          0 |         19 |         92 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\行为型模式\仲裁者模式.md                         | Markdown   |         97 |          0 |         26 |        123 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\行为型模式\命令模式.md                          | Markdown   |        100 |          0 |         22 |        122 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\行为型模式\模板.md                            | Markdown   |         98 |          0 |         22 |        120 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\行为型模式\职责链.md                           | Markdown   |         80 |          0 |         22 |        102 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\行为型模式\观察者模式.md                         | Markdown   |        109 |          0 |         21 |        130 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\行为型模式\解释器模式.md                         | Markdown   |        104 |          0 |         21 |        125 |
+| d:\notes\myblog\source\_posts\软件工程\设计模式\行为型模式\迭代器模式.md                         | Markdown   |         99 |          0 |         26 |        125 |
+| d:\notes\myblog\source\_posts\软件工程\软件工程中的图\软件工程中的各种图.md                        | Markdown   |        100 |          0 |         40 |        140 |
+| d:\notes\myblog\source\_posts\软件工程\软件工程概述.md                                   | Markdown   |      1,258 |          0 |        354 |      1,612 |
+| d:\notes\myblog\source\_posts\软件测试\Decision-to-decision path.md                | Markdown   |         61 |          2 |         16 |         79 |
+| d:\notes\myblog\source\_posts\软件测试\PDCA循环.md                                   | Markdown   |         30 |          0 |          4 |         34 |
+| d:\notes\myblog\source\_posts\软件测试\事件流场景的测试设计.md                               | Markdown   |         45 |          0 |         12 |         57 |
+| d:\notes\myblog\source\_posts\软件测试\类状态的测试设计.md                                 | Markdown   |        127 |          0 |         30 |        157 |
+| d:\notes\myblog\source\_posts\软件测试\软件测试.md                                     | Markdown   |         61 |          0 |         22 |         83 |
+| Total                                                                          |            |     45,573 |         79 |      2,813 |     48,465 |
++--------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
