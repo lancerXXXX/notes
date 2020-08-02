@@ -1,9 +1,9 @@
 ---
-note:
-    createdAt: 2020-04-29T12:12:39.831Z
-    modifiedAt: 2020-04-29T12:54:42.377Z
-    tags: []
+tags: []
+created: 2020-04-29T12:12:39.831Z
+modified: 2020-04-29T12:54:42.377Z
 ---
+
 # Decision-to-decision path
 
 ## Definition
