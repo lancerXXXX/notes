@@ -32,7 +32,7 @@ img {
     background: #2D343B;
     background: #ffffff77;
     box-shadow: 5px 5px 5px #20252a, -5px -5px 5px #3a434c;
-    max-width: 80%;
+    /* max-width: 80%; */
 }
 
 body ul li ul li {
@@ -41,4 +41,8 @@ body ul li ul li {
 
 body ul li ul li ul li {
     color: rgba(255, 255, 255, 0.472);
+}
+
+code {
+    font-size: 12px;
 }
