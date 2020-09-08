@@ -43,3 +43,7 @@ body ul li ul li ul li {
 code {
     font-size: 12px;
 }
+
+h2 {
+    border-bottom: 1px solid #ffffffb2;
+}
