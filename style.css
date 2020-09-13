@@ -47,3 +47,12 @@ code {
 h2 {
     border-bottom: 1px solid #ffffffb2;
 }
+
+th,
+td {
+    border: solid 1px #ffffff33 !important;
+}
+
+table {
+    margin: 10px;
+}
